@@ -1,0 +1,465 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: "Open Sans", sans-serif;
+}
+body{
+    margin: .5rem 8rem;
+}
+
+li {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1.5rem 1.5rem;
+}
+
+.hamburger {
+    display: none;
+}
+
+.bar {
+    display: block;
+    width: 25px;
+    height: 3px;
+    margin: 5px auto;
+    -webkit-transition: all 0.3s ease-in-out;
+    transition: all 0.3s ease-in-out;
+    background-color: #000;
+}
+
+.nav-menu {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.nav-item {
+    margin-left: 5rem;
+}
+
+.nav-link {
+    font-size: 1.2rem;
+    font-weight: 600;
+    color: #000;
+}
+
+.nav-link:hover {
+    color: #06c167;
+}
+
+li{
+    padding-left: 1.8rem;
+}
+a{
+    text-decoration: none;
+}
+a:hover{
+    color: #06c167;
+    transition: all .5s;
+}
+
+.hero{
+    height: 100vh;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.hero-text{
+    width: 50%;
+}
+.hero-title{
+    font-size: 4.5rem;
+    font-weight: 500;
+}
+
+.hero-pera{
+    font-size: 1.2rem;
+    font-weight: 600;
+    padding: 2rem 0;
+}
+
+button{
+    padding: 1rem 1.5rem;
+    background-color: #06c167;
+    border: none;
+}
+
+.hero-logo{
+    padding-top: 4rem;
+    display: flex;
+}
+.hero-image{
+    height: 100%;
+    width: 40%;
+    background-image: url(img/hero.png);
+    background-size: cover;
+    border-radius: 2rem;
+}
+
+.hero-featuers{
+    margin: 2rem 0;
+    height: 20vh;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    padding-bottom: 3rem;
+    border-bottom: 2px solid beige;
+
+}
+
+.featuers-card{
+    width: 20%;
+    display: flex;
+    justify-content: space-between;
+    cursor: pointer;
+}
+.details{
+    padding-left: 1rem;
+}
+.icon{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.icon i{
+    font-size: 1.5rem;
+}
+
+.details h5{
+    font-size: 1.2rem;
+    font-weight: 800;
+}
+.details p{
+    font-weight: 500;
+}
+
+.benifit{
+    height: 80vh;
+    display: flex;
+    margin: 5rem 0;
+}
+
+.benifit-img{
+    width: 50%;
+    background-image: url(/img/benifit.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    /* background-attachment: fixed; */
+    background-position: center;
+
+}
+
+.benifit-text{
+    width: 60%;
+    margin-left:  5rem;
+}
+.benifit-title{
+    font-size: 4rem;
+    margin-bottom: 3rem;
+
+}
+
+.benifit-text p{
+    margin-top: 1.5rem;
+}
+.benifit-text i{
+    color: #06c167;
+    font-size: 1.2rem;
+}
+
+.star-section{
+    height: 80vh;
+    display: flex;
+    justify-content: space-between;
+}
+
+.star-text{
+    width: 60%;
+}
+
+.star-title{
+    font-size: 4rem;
+}
+
+.star-featuers{
+    margin: 3rem 0;
+    display: flex;
+    justify-content: space-between;
+}
+
+.star-card{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 20vh;
+    width: 30%;
+}
+
+.highlight{
+    color: #06c167;
+    font-size: 3rem;
+    font-weight: 500;
+}
+
+.star-featuers p{
+    color: gray;
+}
+
+.star-img{
+    width: 40%;
+    background-image: url(/img/grow.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    /* background-attachment: fixed; */
+    background-position: center;
+}
+
+.food-featuers{
+    height: 100vh;
+    padding: 2rem 0;
+    text-align: center;
+}
+
+.food-featuers p{
+    font-size: 1rem;
+    font-weight: 700;
+}
+
+.food-featuers h2{
+    font-size: 4rem;
+    font-weight: 700;
+}
+
+.food-card{
+    height: 80vh;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.card{
+    border: .8px solid aqua;
+    padding-top: 2rem;
+    /* height: 20rem; */
+    width: 25%;
+    /* background-color: red; */
+    text-align: left;
+    padding: 2rem;
+    background-color: #cbe0d6;
+}
+
+.card1{
+    background-image: url(img/veriety1.png);
+    background-size: cover;
+}
+
+.card3{
+    background-image: url(img/veriety2.png);
+    background-size: cover;
+}
+
+.card6{
+    background-image: url(img/veriety3.png);
+    background-size: cover;
+}
+
+.card8{
+    background-image: url(img/veriety4.png);
+    background-size: cover;
+}
+
+.card h3{
+    font-size: 2rem;
+    font-weight: 600;
+    padding-bottom: 1rem;
+}
+
+.card p{
+    font-size: 1.2rem;
+    font-weight: 500;
+    padding-bottom: 1rem;
+
+}
+
+.card a{
+    font-size: 1rem;
+    font-weight: 500;
+    color: #06c167;
+    text-decoration: none;
+}
+
+.our-product{
+    height: 90vh;
+    margin: 5rem 0;
+}
+
+.our-product h2{
+    font-size: 4rem;
+    font-weight: 600;
+}
+
+.product-cotainer{
+    height: 60vh;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin-top: 2rem;
+}
+
+.our-product p{
+    font-weight: 600;
+}
+
+.product-card{
+    border: 2.5px solid #767675;
+    width: 22%;
+}
+
+.product-upper{
+    height: 60%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.fa-star{
+    color: #06c167;
+}
+.product-img{
+    height: 190px;
+    width: 190px;
+    cursor: pointer;
+}
+
+.product-down{
+    height: 40%;
+    text-align: center;
+    padding: 1rem 0;
+}
+
+.price{
+    padding: 1rem 0;
+    color: #06c167;
+}
+
+.price span{
+    text-decoration: line-through;
+    color:#767675;
+}
+
+.buy{
+    background-color: #fff;
+    color: #06c167;
+    border: 2px solid #06c167;
+    cursor: pointer;
+}
+
+.vaggie-banner{
+    height: 60vh;
+}
+
+.vaggie-img{
+    height: 60vh;
+    width: 100%;
+    background-image: url(/img/footer.png);
+    background-position: center;
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+}
+
+
+.vaggie-text{
+    position: absolute;
+    color: #fff;
+    text-align: center;
+    font-size: 2.5rem;
+    padding: 2rem;
+}
+
+.vaggie-text button{
+    color: #fff;
+    font-size: .8rem;
+    font-weight: 600;
+    cursor: pointer;
+}
+
+footer{
+    height: 60vh;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.footer{
+    margin-top: 4rem;
+    display: flex;
+    justify-content: space-between;
+}
+
+.footer-component-1{
+    width: 25%;
+    padding-right: 3rem;
+}
+
+.footer-component-1 ul{
+    display:flex;
+    font-size: 2rem;
+    gap: 30px;
+}
+
+a{
+    color: #000;
+    font-weight: 600;
+}
+
+.footer-component-2{
+    width: 20%;
+}
+.footer li{
+    padding: 0;
+}
+.footer-component-3{
+    width: 20%;
+}
+
+.footer-component-4{
+    width: 25%;
+}
+.footer p{
+    font-weight: 600;
+}
+
+.footer-title{
+    font-size: 1.2rem;
+    font-weight: 600;
+    padding-bottom: 1.5rem;
+}
+
+ul li {
+    list-style: none;
+}
+
+.get-in-touch{
+    margin-top: 1.5rem;
+}
+
+input{
+    padding: 1rem 1rem;
+    background-color: rgb(210, 208, 208);
+    border: none;
+}
